@@ -9,6 +9,7 @@ pinned: false
 ---
 
 # TruthLens AI - Fake News Detector
+### 🚀 [Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/suneeth13/FakeNews)
 
 TruthLens AI is a modern, full-stack application that leverages **Google Gemini Pro** to verify news headlines and articles. It provides real-time "Real/Fake" classification along with a detailed factual justification.
 
