@@ -61,5 +61,21 @@ Open your browser and navigate to `http://127.0.0.1:8000`.
 - `.env.example`: Template for environment variables.
 - `Dockerfile`: Containerization configuration.
 
+## 🌐 Deployment
+
+### Option 1: Hugging Face Spaces (Recommended for AI)
+1. Create a new **Space** on [Hugging Face](https://huggingface.co/new-space).
+2. Choose **Docker** as the SDK.
+3. Connect your GitHub repository (`Suneeth13/Fake-News-Detector`).
+4. Go to **Settings** > **Variables and Secrets** and add `GEMINI_API_KEY` as a **Secret**.
+5. The app will automatically build and deploy!
+
+### Option 2: Render
+1. Create a new **Web Service** on [Render](https://dashboard.render.com/).
+2. Connect your GitHub repository.
+3. Choose **Docker** as the Environment.
+4. Add `GEMINI_API_KEY` in the **Environment Variables** section.
+5. Deploy!
+
 ## 📜 License
 This project is for educational purposes and shows strong NLP understanding and AI integration.
