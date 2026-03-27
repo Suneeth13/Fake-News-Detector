@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detector | AI Powered Truth Verification</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">TruthLens<span>AI</span></div>
+            <p class="subtitle">Fast and accurate news verification using NLP</p>
+        </header>
+
+        <main>
+            <div class="card glass">
+                <div class="input-section">
+                    <label for="newsInput">Paste News Headline or Article</label>
+                    <textarea id="newsInput" placeholder="Enter the news content here..."></textarea>
+                    <button id="predictBtn" class="btn-primary">Verify News</button>
+                    <div id="loading" class="hidden">
+                        <div class="spinner"></div>
+                        <p>Analyzing text patterns...</p>
+                    </div>
+                </div>
+
+                <div id="resultSection" class="result-section hidden">
+                    <div class="result-header">
+                        <h3>Analysis Result</h3>
+                        <div id="statusBadge" class="badge">FAKE NEWS</div>
+                    </div>
+                    
+                    <div class="confidence-container">
+                        <div class="confidence-label">
+                            <span>Confidence Score</span>
+                            <span id="confidenceValue">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div id="progressBarFill" class="progress-fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="justification-container">
+                        <h4>AI Reasoning</h4>
+                        <p id="justificationText">Analyzing source credibility and factual consistency...</p>
+                    </div>
+
+                    <div class="disclaimer">
+                        <p>Note: This AI prediction is based on statistical patterns found in historical fake news datasets. It should be used as a tool, not a definitive source of truth.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Fake News Detector. Powered by FastAPI & NLP.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
