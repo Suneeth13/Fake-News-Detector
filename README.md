@@ -1,3 +1,13 @@
+---
+title: TruthLens AI
+emoji: 🕵️
+colorFrom: indigo
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # TruthLens AI - Fake News Detector
 
 TruthLens AI is a modern, full-stack application that leverages **Google Gemini Pro** to verify news headlines and articles. It provides real-time "Real/Fake" classification along with a detailed factual justification.
