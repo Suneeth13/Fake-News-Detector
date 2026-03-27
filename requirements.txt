@@ -6,5 +6,7 @@ numpy
 spacy
 nltk
 datasets
+google-generativeai
+python-dotenv
 jinja2
 python-multipart
